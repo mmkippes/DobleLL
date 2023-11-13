@@ -9,21 +9,21 @@ import vehicles from "./assets/data/vehicles.json"
 
 function App() {
 
- 
+
 
   return <div>
-    <NavBarComponent/>
+    <NavBarComponent />
     <ImageWithText
-        title="Transporte Pedro"
-        text="Texto debajo del título" />
+      title="Transporte DobleLL"
+      text="Texto debajo del título" />
     <SectionTitleComponent title="Por qué elegirnos?" />
-    <ThreeStripesSection/>
+    <ThreeStripesSection />
     <SectionTitleComponent title="Conoce nuestra flota" />
-    <CardsSectionComponent data={vehicles}/>
+    <CardsSectionComponent data={vehicles} />
   </div>;
 
 }
 
- 
+
 
 export default App;
